@@ -1,5 +1,5 @@
 {
-  "name": "angularFilepickerExample",
+  "name": "angular-filepicker-example",
   "version": "0.0.0",
   "dependencies": {},
   "devDependencies": {
@@ -39,5 +39,8 @@
   },
   "engines": {
     "node": ">=0.10.0"
+  },
+  "_aerobatic": {
+    "appId": "bysCiFj0F"
   }
 }
