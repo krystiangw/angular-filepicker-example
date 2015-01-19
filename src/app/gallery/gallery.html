@@ -1,0 +1,12 @@
+<p><a class="btn btn-lg btn-default" ng-click="pickFile()">Add new file</a></p>
+<div class="row">
+  <div class="col-sm-3" ng-repeat="file in files | orderBy:'creationTime'">
+    <div class="thumbnail">
+      <img class="" ng-src="{{file.url}}" alt="{{file.filename}}" style="height: 150px;">
+      <div class="caption">
+        <h3>{{file.filename}}</h3>
+      </div>
+    </div>
+  </div>
+  <h2 ng-if="files.length == 0">Pick some files first!</h2>
+</div>
